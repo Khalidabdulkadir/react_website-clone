@@ -1,0 +1,75 @@
+.React-Future-container{
+        
+       background-color: rgb(219, 216, 209);
+        width: 100%;
+        height: 130vh;
+        padding: 30px;
+    
+}
+#dark .React-Future-container{
+    background-color: #1a1d23f5;
+    color: white;
+}
+#dark .box1 a{
+    color: antiquewhite;
+}
+.react-sides{
+    display: flex;
+    justify-content: space-around;
+}
+.left-side{
+    width: 800px;
+    margin-top: 40px;
+    padding: 10px;
+}
+.left-side h1{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.left-side p{
+    font-size: 23px;
+    width: 600px;
+    margin-top: 35px;
+    line-height: 1.5;
+}
+.left-side button{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 250px;
+    gap: 10px;
+    padding: 10px;
+   border-radius: 20px;
+   cursor: pointer;
+   font-size: 16px;
+   border: none;
+}
+.right-side{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 400px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.box1{
+    border: solid;
+    width: 250px;
+    height: 170px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+.box1 a{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+.box1 div{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin-left: 10px;
+}

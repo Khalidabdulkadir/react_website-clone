@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --text-color: rgba(52,58,70,.8);
+    --font-family: ;
+    --header-text-color: #0ca5e7;
+    --Page-color: rgba(36, 37, 39, 0.8);
+}
+.Hero-container{
+    width: 100%;
+    height: 100vh;
+}
+.img-logo{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+}
+.hero-text{
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.hero-text h1{
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hero-text p{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+.Hero-Btns{
+    text-align: center;
+    margin-top: 30px;
+}
+.Hero-Btns button{
+    margin-left: 10px;
+}
+.Hero-Btns .left-btn{
+    background-color: var(--header-text-color);
+    padding: 15px;
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+}
+.Hero-Btns .right-btn{
+    background-color: var(--text-color);
+    padding: 15px;
+    width: 130px;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    outline:#fff;
+}
+#light .hero-text p{
+    color: black;
+}
+#light .hero-text h1{
+    color: black;
+}
+@media (max-width: 770px){
+    .hero-text p{
+        font-size: 30px;
+    }
+    .hero-text h1{
+        font-size: 40px;
+    }
+}
